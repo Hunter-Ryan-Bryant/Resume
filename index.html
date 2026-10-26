@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume | Hunter Bryant</title>
+    <style>
+      h1 img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px; /* Adds space between the name and the picture */
+      }
+      img {
+        width: 150px;
+        height: auto;
+        border-radius: 8px;
+      }
+      :root {
+        color-scheme: light;
+        --ink: #1d2939;
+        --muted: #667085;
+        --accent: #285ea8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 36px 18px;
+        background: #f2f4f7;
+        color: var(--ink);
+        font:
+          16px/1.55 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 820px;
+        margin: auto;
+        padding: clamp(24px, 6vw, 58px);
+        background: white;
+        box-shadow: 0 8px 30px #10182814;
+      }
+      header {
+        padding-bottom: 22px;
+        border-bottom: 2px solid var(--ink);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2.3rem, 7vw, 3.4rem);
+        line-height: 1.1;
+        letter-spacing: -0.04em;
+      }
+      .role {
+        margin: 8px 0 12px;
+        color: var(--accent);
+        font-size: 1.15rem;
+        font-weight: 650;
+      }
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      a {
+        color: var(--accent);
+        text-underline-offset: 3px;
+      }
+      section {
+        margin-top: 26px;
+      }
+      h2 {
+        margin: 0 0 10px;
+        color: var(--accent);
+        font-size: 0.85rem;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 0;
+      }
+      .entry {
+        margin-top: 16px;
+      }
+      .entry-heading {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+      h3 {
+        margin: 0;
+        font-size: 1.03rem;
+      }
+      time,
+      .subheading {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .subheading {
+        margin-top: 2px;
+      }
+      ul {
+        margin: 7px 0 0;
+        padding-left: 20px;
+      }
+      li + li {
+        margin-top: 3px;
+      }
+      @media (max-width: 520px) {
+        body {
+          padding: 0;
+        }
+        main {
+          box-shadow: none;
+        }
+        .entry-heading {
+          display: block;
+        }
+        time {
+          display: block;
+        }
+      }
+      @media print {
+        body {
+          padding: 0;
+          background: white;
+        }
+        main {
+          max-width: none;
+          padding: 0;
+          box-shadow: none;
+        }
+        section,
+        .entry {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          Hunter Bryant
+          <img src="images/IMG_1783.jpeg" alt="An image of myself" />
+        </h1>
+        <p class="role">Computer Science Student</p>
+        <p class="contact">
+          <span>Pembroke, North Carolina</span
+          ><a href="mailto:hrb021@bravemail.uncp.edu"
+            >hrb021@bravemail.uncp.edu</a
+          ><a
+            href="https://www.linkedin.com/in/hunter-bryant-73313642a/"
+            target="_blank"
+            >Linkedin</a
+          ><a href="https://github.com/rm9v27j9jv-collab" target="_blank"
+            >Portfolio</a
+          >
+        </p>
+      </header>
+      <section aria-labelledby="summary">
+        <h2 id="summary">Summary</h2>
+        <p>
+          Computer Science major at the University of North Carolina at
+          Pembroke.
+        </p>
+      </section>
+      <section aria-labelledby="experience">
+        <h2 id="experience">Experience</h2>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Barista · Starbucks</h3>
+            <time>September 2024 – Present</time>
+          </div>
+          <p class="subheading">Dillon, South Carolina</p>
+          <ul>
+            <li>
+              Became a barista trainer to onboard and mentor new employees
+              through 6-week training modules. .
+            </li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Team Member· Dunkin</h3>
+            <time> March 2024 – September 2024</time>
+          </div>
+          <p class="subheading">Lauringburg, North Carolina</p>
+          <ul></ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Night Manager· Planet Fitness</h3>
+            <time> May 2023 – December 2023</time>
+          </div>
+          <p class="subheading">Lumberton, North Carolina</p>
+          <ul>
+            <li>
+              Solo-managed 12-hour overnight facility operations, handling
+              member inquiries, account issues, and facility security.
+            </li>
+            <li>
+              Maintained facility cleanliness, equipment sanitation, and
+              detailed daily operational logs
+            </li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Referee ·</h3>
+            <time>January 2023 – Present</time>
+          </div>
+          <p class="subheading">Pembroke, North Carolina</p>
+          <ul>
+            <li>
+              Refereed intramural games in fast-paced environments, making
+              real-time calls and coordinating with officiating crews to ensure
+              fair play and participant safety.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section aria-labelledby="education">
+        <h2 id="education">Education</h2>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Junior</h3>
+            <time>2021-</time>
+          </div>
+          <p class="subheading">
+            University of North Carolina at Pembroke · Pembroke, North Carolina
+          </p>
+        </article>
+      </section>
+      <section aria-labelledby="skills">
+        <h2 id="skills">Skills</h2>
+        <p>.Java, Python, SQL, C++, HTML/CSS, JavaScript</p>
+      </section>
+    </main>
+  </body>
+</html>
