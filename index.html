@@ -145,7 +145,7 @@
       <header>
         <h1>
           Hunter Bryant
-          <img src="images/IMG_1783.jpeg" alt="An image of myself" />
+          <img src="images/IMG_1783.jpeg" alt="Photo of Hunter Bryant" />
         </h1>
         <p class="role">Computer Science Student</p>
         <p class="contact">
@@ -164,9 +164,92 @@
       <section aria-labelledby="summary">
         <h2 id="summary">Summary</h2>
         <p>
-          Computer Science major at the University of North Carolina at
-          Pembroke.
+          Computer Science student at the University of North Carolina at
+          Pembroke seeking a software development internship. I build
+          full-stack web apps, REST APIs and machine-learning projects in
+          Python and JavaScript, with automated tests and CI on every project.
         </p>
+      </section>
+      <section aria-labelledby="projects">
+        <h2 id="projects">Projects</h2>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>
+              <a href="https://github.com/rm9v27j9jv-collab/motion-capture-denoiser" target="_blank"
+                >Motion Capture Denoiser</a
+              >
+            </h3>
+            <time>Python · PyTorch · NumPy</time>
+          </div>
+          <ul>
+            <li>
+              Built a residual 1D CNN that removes jitter and spike noise from
+              motion-capture trajectories, cutting error 16% and velocity error
+              22% versus the best tuned classical filter.
+            </li>
+            <li>
+              Designed a leak-free train/validation/test pipeline and a
+              31-test pytest suite; the model's lead grows to 42% under 3×
+              unseen noise.
+            </li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>
+              <a href="https://board-assesment.netlify.app/" target="_blank"
+                >Kanban Board</a
+              >
+            </h3>
+            <time>React · Supabase · PostgreSQL</time>
+          </div>
+          <ul>
+            <li>
+              Deployed a full-stack task board with drag and drop, search and
+              filters, labels, team assignment, comments and an activity log.
+            </li>
+            <li>
+              Used Supabase anonymous auth so visitors can try the app
+              instantly without creating an account.
+            </li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>
+              <a href="https://github.com/rm9v27j9jv-collab/Expense_tracker" target="_blank"
+                >Expense Tracker API</a
+              >
+            </h3>
+            <time>Python · FastAPI · SQLModel</time>
+          </div>
+          <ul>
+            <li>
+              Built a REST API with full CRUD, filtering by category and date
+              range, sorting, pagination and Pydantic validation.
+            </li>
+            <li>
+              Wrote pytest integration tests against an isolated in-memory
+              database, run automatically with GitHub Actions.
+            </li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>
+              <a href="https://github.com/rm9v27j9jv-collab/file-automator" target="_blank"
+                >File Automator</a
+              >
+            </h3>
+            <time>Python · pytest</time>
+          </div>
+          <ul>
+            <li>
+              Wrote a command-line tool that sorts folders by file type with
+              collision-safe renaming, a dry-run mode and an audit log.
+            </li>
+          </ul>
+        </article>
       </section>
       <section aria-labelledby="experience">
         <h2 id="experience">Experience</h2>
@@ -179,22 +262,21 @@
           <ul>
             <li>
               Became a barista trainer to onboard and mentor new employees
-              through 6-week training modules. .
+              through 6-week training modules.
             </li>
           </ul>
         </article>
         <article class="entry">
           <div class="entry-heading">
-            <h3>Team Member· Dunkin</h3>
-            <time> March 2024 – September 2024</time>
+            <h3>Team Member · Dunkin</h3>
+            <time>March 2024 – September 2024</time>
           </div>
-          <p class="subheading">Lauringburg, North Carolina</p>
-          <ul></ul>
+          <p class="subheading">Laurinburg, North Carolina</p>
         </article>
         <article class="entry">
           <div class="entry-heading">
-            <h3>Night Manager· Planet Fitness</h3>
-            <time> May 2023 – December 2023</time>
+            <h3>Night Manager · Planet Fitness</h3>
+            <time>May 2023 – December 2023</time>
           </div>
           <p class="subheading">Lumberton, North Carolina</p>
           <ul>
@@ -204,13 +286,13 @@
             </li>
             <li>
               Maintained facility cleanliness, equipment sanitation, and
-              detailed daily operational logs
+              detailed daily operational logs.
             </li>
           </ul>
         </article>
         <article class="entry">
           <div class="entry-heading">
-            <h3>Referee ·</h3>
+            <h3>Intramural Referee · UNC Pembroke</h3>
             <time>January 2023 – Present</time>
           </div>
           <p class="subheading">Pembroke, North Carolina</p>
@@ -227,8 +309,8 @@
         <h2 id="education">Education</h2>
         <article class="entry">
           <div class="entry-heading">
-            <h3>Junior</h3>
-            <time>2021-</time>
+            <h3>B.S. Computer Science</h3>
+            <time>Expected May 2028</time>
           </div>
           <p class="subheading">
             University of North Carolina at Pembroke · Pembroke, North Carolina
@@ -237,7 +319,14 @@
       </section>
       <section aria-labelledby="skills">
         <h2 id="skills">Skills</h2>
-        <p>.Java, Python, SQL, C++, HTML/CSS, JavaScript</p>
+        <p>
+          <strong>Languages:</strong> Python, Java, JavaScript, C++, SQL,
+          HTML/CSS
+        </p>
+        <p>
+          <strong>Frameworks &amp; tools:</strong> FastAPI, React, PyTorch,
+          NumPy, SQLModel, Supabase, pytest, Git, GitHub Actions
+        </p>
       </section>
     </main>
   </body>
